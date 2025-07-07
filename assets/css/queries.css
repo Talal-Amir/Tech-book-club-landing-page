@@ -1,0 +1,131 @@
+@media (max-width: 1280px){
+/* Hero Section */
+.main-container{
+    padding: 4rem;
+}
+
+/* Feature Section */
+.features-section{
+    padding: 0 4rem;
+}
+
+.features-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 8rem;
+    margin-bottom: 10rem;
+}
+.features-heading{
+    line-height: 7rem;
+}
+.feature-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+}
+
+}
+
+
+@media (max-width: 1024px) {
+
+.hero-section {
+    background-image: 
+        linear-gradient(to top left, #d1eaff 0%, #fff9eb 50%),
+        url(../images/pattern-light-bg.svg);
+    background-blend-mode: multiply;
+    background-size: inherit;
+    background-position: center;
+    margin-bottom: 10rem;
+    height: 100%;
+}    
+
+.main-container{
+    max-width: 144rem;
+    height: 100%;
+    padding: 4rem 2.4rem;
+    margin: 0 auto;
+}
+
+.nav-container{
+    margin-bottom: 4.8rem; 
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    row-gap: 4rem;
+}
+
+.hero-image{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.hero-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Feature Section */
+
+.features-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    row-gap: 5rem;
+    margin-bottom: 10rem;
+} 
+
+.features-images{
+    display: grid;
+    grid-row: 1;
+}
+
+}
+
+@media (max-width: 786px) {
+.features-section{
+    padding: 0 2rem;
+}
+.features-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    column-gap: 8rem;
+    margin-bottom: 10rem;
+}    
+.feature-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.features-heading{
+    line-height: 5rem;
+}
+
+}
+
+@media (max-width: 430px) {
+
+.main-heading{
+     line-height: 6rem;
+}
+.primary-button{
+     font-size: 1.2rem;
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+
+}
+
+@media (max-width: 360px) {
+    
+}

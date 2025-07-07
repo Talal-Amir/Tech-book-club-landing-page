@@ -1,0 +1,270 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+display: block;
+max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* :root {} */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "inter", "martian mono", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: 
+        linear-gradient(to top left, #d1eaff 0%, #fff9eb 50%),
+        url(../images/pattern-light-bg.svg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 8rem;
+}
+.main-container{
+    max-width: 144rem;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+.nav-container{
+    margin-bottom: 2rem; 
+}
+/* .navbar{} */
+/* .nav-logo{} */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 6rem 0;
+    /* justify-items: center; */
+}
+/* .content-container{} */
+/* .text-container{} */
+.main-heading{
+    font-size: clamp(4.2rem, calc(4.2rem + ((1vw - 0.36rem) * 1.6667)), 8rem);
+    font-family: "martian mono";
+    line-height: 7.8rem;
+    background: #25CC0F;
+    background: linear-gradient(to bottom right, #de9a41 0%, #010c1a 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
+}
+.description{
+    font-size: 2rem;
+    font-family: "inter";
+    color: #364961;
+    margin-bottom: 3rem;
+}
+/* .call-to-action-container{} */
+.primary-button{
+    margin-bottom: 2.8rem;
+    padding: 1.6rem 2rem;
+    font-size: 1.6rem;
+    border: 2.6px solid #010c1a;
+    background-color: #fff9eb;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 600;
+    font-family: "martian mono";
+    transition: all .5s;
+}
+
+.primary-button ion-icon {
+    font-size: 2rem;
+}
+
+.primary-button:hover{
+    background-color: #010c1a;
+    color: #fff9eb;
+    font-weight: 700;
+}
+.component-testimonial{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+/* .testimonial-images{} */
+.testimonial-img{
+    max-height: 4rem;
+}
+/* .raiting-container{} */
+.star-container{
+    display: flex;
+    align-items: center;
+}
+/* .star{} */
+.rating-text{
+    font-size: 1.4rem;
+    color: #364961;
+    font-family: "martian mono";
+}
+.hero-image{
+    display: grid;
+    justify-content: end;
+}
+.hero-img{
+    /* max-width: 100%; */
+    max-width: 54rem;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+}
+
+/* Features Section */
+
+.features-section{
+    max-width: 144rem;
+    margin: 0 auto;
+}
+.features-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    column-gap: 8rem;
+    margin-bottom: 10rem;
+}
+
+.grid-2{
+    grid-template-columns: 2fr 1fr;   
+    margin-bottom: 10rem;
+}
+
+.feature-description{
+    font-size: clamp(1.8rem, calc(1.8rem + ((1vw - 0.36rem) * 0.5556)), 2.4rem);
+    color: #566b85;
+}
+
+
+
+/* .features-images{} */
+.feature-img{
+    max-width: 54rem;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+}
+/* .features-content{
+    position: relative;
+} */
+.features-heading{
+    font-size: clamp(3.2rem, calc(3.2rem + ((1vw - 0.36rem) * 2.3148)), 5.7rem);
+    font-family: "martian mono";
+    color: #010c1a;
+    margin-bottom: 3rem;
+    line-height: 7.4rem;
+    /* position: relative; */
+}
+
+/* .heading-circle::after{
+    content: url(../images/pattern-circle.png);
+    position: absolute;
+    transform: translateX(-50%);
+    left: 32%;
+} */
+.features-list{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    list-style: none;
+    font-size: clamp(1.8rem, calc(1.8rem + ((1vw - 0.36rem) * 0.5556)), 2.4rem);
+    color: #010c1a;
+}
+/* .feature-check{} */
+
+/* Reading journey Section */
+
+.reading-section{
+    max-width: 144rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.reading-container{
+    padding: 10rem 6rem;
+    border-radius: .8rem;
+    background-image: 
+        linear-gradient(to top left, #d1eaff 0%, #fff9eb 50%),
+        url(../images/pattern-light-bg.svg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+.journey-heading{
+    text-align: center;
+    margin-bottom: 6rem;
+    font-family: "martian mono";
+    padding: 0 38rem;
+    line-height: 6rem;
+    font-size: clamp(3.2rem, calc(3.2rem + ((1vw - 0.36rem) * 2.3148)), 5rem);
+}
+.journey-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 6rem;
+}
+/* .box{} */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+}
+.number{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #010c1a;
+    font-family: "martian mono";
+    border: 2px solid #010c1a;
+    border-radius: 6px;
+    padding: .5rem 1.5rem;
+}
+/* .box-arrow{} */
+.box-text{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #010c1a;
+    font-family: "martian mono";
+}
