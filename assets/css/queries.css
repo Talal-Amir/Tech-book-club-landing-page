@@ -26,6 +26,16 @@
     border-radius: 1rem;
 }
 
+/* Reading Section */
+
+.reading-section{
+    padding: 0 4rem;
+}
+
+.journey-heading{
+    padding: 0 25rem;
+}
+
 }
 
 
@@ -87,6 +97,31 @@
     grid-row: 1;
 }
 
+/* Reading Section */
+
+.journey-heading{
+    padding: 0;
+    text-align: left;
+}
+
+.journey-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+}
+
+.box-arrow{
+    display: none;
+}
+
+/* Pricing Section */
+
+.pricing-flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
 }
 
 @media (max-width: 786px) {
@@ -110,6 +145,25 @@
     line-height: 5rem;
 }
 
+/* Reading Section */
+
+.reading-section{
+    padding: 0 2rem;
+}
+
+.reading-container{
+    padding: 6rem 3rem;
+}
+
+/* Pricing Section */
+
+
+.pricing-flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
 }
 
 @media (max-width: 430px) {
@@ -124,8 +178,31 @@
      width: 100%;
 }
 
+/* Pricing Section */
+
+.pricing-flex{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    min-width: 32rem;
+    gap: 2rem;
+}
+
 }
 
 @media (max-width: 360px) {
+
+/* Reading Section */
+
+.journey-heading{
+    font-size: 2.8rem;
+    line-height: 5rem;
+}
+
+/* Pricin Section */
+
+.pricing-container{
+    padding:  0 2rem;
+}
     
 }
